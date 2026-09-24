@@ -6,8 +6,8 @@ to understand which concepts are being learned by the designed model. A natural 
 designing without such robustness in mind is the fact that a model might learn from unwanted microsignals
 that might be unexplainable through a human lens. In the context of Natural Language based
 tasks, spurious correlations often come from unexpected sources. Adversaries that flip decisions
-can be generated at a character level without changing the semantic content. [Ebrahimi et al.
-2018a],[Ebrahimi et al. 2018b] Spurious correlations can also arise due to biased datasets. Models
+can be generated at a character level without changing the semantic content [Ebrahimi et al.
+2018a],[Ebrahimi et al. 2018b]. Spurious correlations can also arise due to biased datasets. Models
 trained on such corpora are prone to learning unwanted correlations even though the model itself
 might be robust in theory.[Zhang et al. 2018], [Bolukbasi et al. 2016]. A great practical example of a
 spurious correlation arisen through biases in datasets is given by [Wang and Culotta 2020a] who
